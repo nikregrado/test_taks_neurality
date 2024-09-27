@@ -1,0 +1,26 @@
+2024-09-27 21:22:02,736 - INFO - Device: CPU
+2024-09-27 21:22:02,738 - INFO - Image: gettyimages-76208034-612x612.jpg
+2024-09-27 21:22:02,741 - INFO - Loading time: 5.85 ms
+2024-09-27 21:22:02,742 - INFO - Preprocessing time: 2.75 ms
+2024-09-27 21:22:02,744 - INFO - Inference time: 5235.87 ms
+2024-09-27 21:22:02,745 - INFO - Postprocessing time: 422.56 ms
+2024-09-27 21:22:02,746 - INFO - Component times:
+2024-09-27 21:22:02,747 - INFO -   transform: 31.86 ms
+2024-09-27 21:22:02,748 - INFO -   backbone: 2829.75 ms
+2024-09-27 21:22:02,749 - INFO -   rpn: 1603.68 ms
+2024-09-27 21:22:02,750 - INFO -   roi_heads: 768.02 ms
+2024-09-27 21:22:02,751 - INFO -   postprocess: 0.13 ms
+2024-09-27 21:22:02,752 - INFO - ------------------------------
+2024-09-27 21:22:09,644 - INFO - Device: CPU
+2024-09-27 21:22:09,646 - INFO - Image: gettyimages-1392016982-612x612.jpg
+2024-09-27 21:22:09,648 - INFO - Loading time: 4.98 ms
+2024-09-27 21:22:09,651 - INFO - Preprocessing time: 3.73 ms
+2024-09-27 21:22:09,652 - INFO - Inference time: 6604.20 ms
+2024-09-27 21:22:09,655 - INFO - Postprocessing time: 276.85 ms
+2024-09-27 21:22:09,657 - INFO - Component times:
+2024-09-27 21:22:09,659 - INFO -   transform: 26.51 ms
+2024-09-27 21:22:09,661 - INFO -   backbone: 4288.90 ms
+2024-09-27 21:22:09,662 - INFO -   rpn: 1396.01 ms
+2024-09-27 21:22:09,663 - INFO -   roi_heads: 885.36 ms
+2024-09-27 21:22:09,664 - INFO -   postprocess: 0.13 ms
+2024-09-27 21:22:09,665 - INFO - ------------------------------
