@@ -1,26 +1,304 @@
-2024-09-27 21:22:02,736 - INFO - Device: CPU
-2024-09-27 21:22:02,738 - INFO - Image: gettyimages-76208034-612x612.jpg
-2024-09-27 21:22:02,741 - INFO - Loading time: 5.85 ms
-2024-09-27 21:22:02,742 - INFO - Preprocessing time: 2.75 ms
-2024-09-27 21:22:02,744 - INFO - Inference time: 5235.87 ms
-2024-09-27 21:22:02,745 - INFO - Postprocessing time: 422.56 ms
-2024-09-27 21:22:02,746 - INFO - Component times:
-2024-09-27 21:22:02,747 - INFO -   transform: 31.86 ms
-2024-09-27 21:22:02,748 - INFO -   backbone: 2829.75 ms
-2024-09-27 21:22:02,749 - INFO -   rpn: 1603.68 ms
-2024-09-27 21:22:02,750 - INFO -   roi_heads: 768.02 ms
-2024-09-27 21:22:02,751 - INFO -   postprocess: 0.13 ms
-2024-09-27 21:22:02,752 - INFO - ------------------------------
-2024-09-27 21:22:09,644 - INFO - Device: CPU
-2024-09-27 21:22:09,646 - INFO - Image: gettyimages-1392016982-612x612.jpg
-2024-09-27 21:22:09,648 - INFO - Loading time: 4.98 ms
-2024-09-27 21:22:09,651 - INFO - Preprocessing time: 3.73 ms
-2024-09-27 21:22:09,652 - INFO - Inference time: 6604.20 ms
-2024-09-27 21:22:09,655 - INFO - Postprocessing time: 276.85 ms
-2024-09-27 21:22:09,657 - INFO - Component times:
-2024-09-27 21:22:09,659 - INFO -   transform: 26.51 ms
-2024-09-27 21:22:09,661 - INFO -   backbone: 4288.90 ms
-2024-09-27 21:22:09,662 - INFO -   rpn: 1396.01 ms
-2024-09-27 21:22:09,663 - INFO -   roi_heads: 885.36 ms
-2024-09-27 21:22:09,664 - INFO -   postprocess: 0.13 ms
-2024-09-27 21:22:09,665 - INFO - ------------------------------
+2024-09-27 22:36:56,199 - INFO - Device: CPU
+2024-09-27 22:36:56,205 - INFO - Image: gettyimages-76208034-612x612.jpg
+2024-09-27 22:36:56,210 - INFO - Loading time: 21.77 ms
+2024-09-27 22:36:56,214 - INFO - Preprocessing time: 7.11 ms
+2024-09-27 22:36:56,223 - INFO - Inference time: 9906.07 ms
+2024-09-27 22:36:56,226 - INFO - Postprocessing time: 19.14 ms
+2024-09-27 22:36:56,228 - INFO - Module times:
+2024-09-27 22:36:56,232 - INFO -   transform: 53.25 ms
+2024-09-27 22:36:56,238 - INFO -   backbone.body.conv1: 188.04 ms
+2024-09-27 22:36:56,239 - INFO -   backbone.body.bn1: 143.39 ms
+2024-09-27 22:36:56,242 - INFO -   backbone.body.relu: 11.62 ms
+2024-09-27 22:36:56,247 - INFO -   backbone.body.maxpool: 459.62 ms
+2024-09-27 22:36:56,250 - INFO -   backbone.body.layer1.0.conv1: 5.18 ms
+2024-09-27 22:36:56,254 - INFO -   backbone.body.layer1.0.bn1: 8.16 ms
+2024-09-27 22:36:56,259 - INFO -   backbone.body.layer1.0.relu: 22.89 ms
+2024-09-27 22:36:56,262 - INFO -   backbone.body.layer1.0.conv2: 193.27 ms
+2024-09-27 22:36:56,264 - INFO -   backbone.body.layer1.0.bn2: 19.04 ms
+2024-09-27 22:36:56,269 - INFO -   backbone.body.layer1.0.conv3: 118.51 ms
+2024-09-27 22:36:56,283 - INFO -   backbone.body.layer1.0.bn3: 136.83 ms
+2024-09-27 22:36:56,286 - INFO -   backbone.body.layer1.0.downsample.0: 132.49 ms
+2024-09-27 22:36:56,289 - INFO -   backbone.body.layer1.0.downsample.1: 208.98 ms
+2024-09-27 22:36:56,290 - INFO -   backbone.body.layer1.1.conv1: 37.58 ms
+2024-09-27 22:36:56,291 - INFO -   backbone.body.layer1.1.bn1: 4.35 ms
+2024-09-27 22:36:56,292 - INFO -   backbone.body.layer1.1.relu: 8.62 ms
+2024-09-27 22:36:56,294 - INFO -   backbone.body.layer1.1.conv2: 204.16 ms
+2024-09-27 22:36:56,299 - INFO -   backbone.body.layer1.1.bn2: 4.14 ms
+2024-09-27 22:36:56,304 - INFO -   backbone.body.layer1.1.conv3: 181.51 ms
+2024-09-27 22:36:56,309 - INFO -   backbone.body.layer1.1.bn3: 217.88 ms
+2024-09-27 22:36:56,310 - INFO -   backbone.body.layer1.2.conv1: 40.15 ms
+2024-09-27 22:36:56,311 - INFO -   backbone.body.layer1.2.bn1: 9.59 ms
+2024-09-27 22:36:56,315 - INFO -   backbone.body.layer1.2.relu: 19.29 ms
+2024-09-27 22:36:56,316 - INFO -   backbone.body.layer1.2.conv2: 119.19 ms
+2024-09-27 22:36:56,321 - INFO -   backbone.body.layer1.2.bn2: 15.40 ms
+2024-09-27 22:36:56,322 - INFO -   backbone.body.layer1.2.conv3: 151.54 ms
+2024-09-27 22:36:56,323 - INFO -   backbone.body.layer1.2.bn3: 204.85 ms
+2024-09-27 22:36:56,328 - INFO -   backbone.body.layer2.0.conv1: 111.60 ms
+2024-09-27 22:36:56,333 - INFO -   backbone.body.layer2.0.bn1: 39.34 ms
+2024-09-27 22:36:56,334 - INFO -   backbone.body.layer2.0.relu: 37.96 ms
+2024-09-27 22:36:56,336 - INFO -   backbone.body.layer2.0.conv2: 84.55 ms
+2024-09-27 22:36:56,340 - INFO -   backbone.body.layer2.0.bn2: 2.21 ms
+2024-09-27 22:36:56,343 - INFO -   backbone.body.layer2.0.conv3: 46.75 ms
+2024-09-27 22:36:56,344 - INFO -   backbone.body.layer2.0.bn3: 14.32 ms
+2024-09-27 22:36:56,345 - INFO -   backbone.body.layer2.0.downsample.0: 280.19 ms
+2024-09-27 22:36:56,346 - INFO -   backbone.body.layer2.0.downsample.1: 41.27 ms
+2024-09-27 22:36:56,347 - INFO -   backbone.body.layer2.1.conv1: 37.86 ms
+2024-09-27 22:36:56,349 - INFO -   backbone.body.layer2.1.bn1: 14.91 ms
+2024-09-27 22:36:56,350 - INFO -   backbone.body.layer2.1.relu: 9.47 ms
+2024-09-27 22:36:56,356 - INFO -   backbone.body.layer2.1.conv2: 87.66 ms
+2024-09-27 22:36:56,357 - INFO -   backbone.body.layer2.1.bn2: 2.04 ms
+2024-09-27 22:36:56,359 - INFO -   backbone.body.layer2.1.conv3: 33.14 ms
+2024-09-27 22:36:56,360 - INFO -   backbone.body.layer2.1.bn3: 27.72 ms
+2024-09-27 22:36:56,362 - INFO -   backbone.body.layer2.2.conv1: 88.50 ms
+2024-09-27 22:36:56,363 - INFO -   backbone.body.layer2.2.bn1: 10.44 ms
+2024-09-27 22:36:56,368 - INFO -   backbone.body.layer2.2.relu: 3.08 ms
+2024-09-27 22:36:56,369 - INFO -   backbone.body.layer2.2.conv2: 137.86 ms
+2024-09-27 22:36:56,374 - INFO -   backbone.body.layer2.2.bn2: 2.08 ms
+2024-09-27 22:36:56,378 - INFO -   backbone.body.layer2.2.conv3: 17.85 ms
+2024-09-27 22:36:56,379 - INFO -   backbone.body.layer2.2.bn3: 8.15 ms
+2024-09-27 22:36:56,384 - INFO -   backbone.body.layer2.3.conv1: 20.08 ms
+2024-09-27 22:36:56,386 - INFO -   backbone.body.layer2.3.bn1: 2.28 ms
+2024-09-27 22:36:56,387 - INFO -   backbone.body.layer2.3.relu: 3.26 ms
+2024-09-27 22:36:56,393 - INFO -   backbone.body.layer2.3.conv2: 46.15 ms
+2024-09-27 22:36:56,394 - INFO -   backbone.body.layer2.3.bn2: 2.13 ms
+2024-09-27 22:36:56,395 - INFO -   backbone.body.layer2.3.conv3: 19.64 ms
+2024-09-27 22:36:56,397 - INFO -   backbone.body.layer2.3.bn3: 8.56 ms
+2024-09-27 22:36:56,398 - INFO -   backbone.body.layer3.0.conv1: 42.85 ms
+2024-09-27 22:36:56,403 - INFO -   backbone.body.layer3.0.bn1: 4.34 ms
+2024-09-27 22:36:56,404 - INFO -   backbone.body.layer3.0.relu: 2.28 ms
+2024-09-27 22:36:56,405 - INFO -   backbone.body.layer3.0.conv2: 49.27 ms
+2024-09-27 22:36:56,411 - INFO -   backbone.body.layer3.0.bn2: 1.18 ms
+2024-09-27 22:36:56,412 - INFO -   backbone.body.layer3.0.conv3: 18.21 ms
+2024-09-27 22:36:56,413 - INFO -   backbone.body.layer3.0.bn3: 4.44 ms
+2024-09-27 22:36:56,420 - INFO -   backbone.body.layer3.0.downsample.0: 60.37 ms
+2024-09-27 22:36:56,423 - INFO -   backbone.body.layer3.0.downsample.1: 4.25 ms
+2024-09-27 22:36:56,430 - INFO -   backbone.body.layer3.1.conv1: 18.56 ms
+2024-09-27 22:36:56,431 - INFO -   backbone.body.layer3.1.bn1: 1.25 ms
+2024-09-27 22:36:56,432 - INFO -   backbone.body.layer3.1.relu: 1.50 ms
+2024-09-27 22:36:56,433 - INFO -   backbone.body.layer3.1.conv2: 42.54 ms
+2024-09-27 22:36:56,439 - INFO -   backbone.body.layer3.1.bn2: 1.15 ms
+2024-09-27 22:36:56,440 - INFO -   backbone.body.layer3.1.conv3: 14.96 ms
+2024-09-27 22:36:56,441 - INFO -   backbone.body.layer3.1.bn3: 4.32 ms
+2024-09-27 22:36:56,447 - INFO -   backbone.body.layer3.2.conv1: 17.80 ms
+2024-09-27 22:36:56,448 - INFO -   backbone.body.layer3.2.bn1: 1.37 ms
+2024-09-27 22:36:56,449 - INFO -   backbone.body.layer3.2.relu: 1.49 ms
+2024-09-27 22:36:56,452 - INFO -   backbone.body.layer3.2.conv2: 70.16 ms
+2024-09-27 22:36:56,456 - INFO -   backbone.body.layer3.2.bn2: 1.21 ms
+2024-09-27 22:36:56,457 - INFO -   backbone.body.layer3.2.conv3: 28.96 ms
+2024-09-27 22:36:56,462 - INFO -   backbone.body.layer3.2.bn3: 5.62 ms
+2024-09-27 22:36:56,463 - INFO -   backbone.body.layer3.3.conv1: 19.85 ms
+2024-09-27 22:36:56,468 - INFO -   backbone.body.layer3.3.bn1: 1.47 ms
+2024-09-27 22:36:56,470 - INFO -   backbone.body.layer3.3.relu: 6.25 ms
+2024-09-27 22:36:56,471 - INFO -   backbone.body.layer3.3.conv2: 45.67 ms
+2024-09-27 22:36:56,474 - INFO -   backbone.body.layer3.3.bn2: 1.26 ms
+2024-09-27 22:36:56,476 - INFO -   backbone.body.layer3.3.conv3: 36.26 ms
+2024-09-27 22:36:56,483 - INFO -   backbone.body.layer3.3.bn3: 4.67 ms
+2024-09-27 22:36:56,484 - INFO -   backbone.body.layer3.4.conv1: 23.68 ms
+2024-09-27 22:36:56,485 - INFO -   backbone.body.layer3.4.bn1: 1.36 ms
+2024-09-27 22:36:56,486 - INFO -   backbone.body.layer3.4.relu: 2.72 ms
+2024-09-27 22:36:56,488 - INFO -   backbone.body.layer3.4.conv2: 58.12 ms
+2024-09-27 22:36:56,492 - INFO -   backbone.body.layer3.4.bn2: 1.26 ms
+2024-09-27 22:36:56,494 - INFO -   backbone.body.layer3.4.conv3: 17.27 ms
+2024-09-27 22:36:56,497 - INFO -   backbone.body.layer3.4.bn3: 4.45 ms
+2024-09-27 22:36:56,500 - INFO -   backbone.body.layer3.5.conv1: 18.21 ms
+2024-09-27 22:36:56,502 - INFO -   backbone.body.layer3.5.bn1: 1.25 ms
+2024-09-27 22:36:56,506 - INFO -   backbone.body.layer3.5.relu: 1.42 ms
+2024-09-27 22:36:56,508 - INFO -   backbone.body.layer3.5.conv2: 41.47 ms
+2024-09-27 22:36:56,511 - INFO -   backbone.body.layer3.5.bn2: 1.16 ms
+2024-09-27 22:36:56,514 - INFO -   backbone.body.layer3.5.conv3: 16.04 ms
+2024-09-27 22:36:56,515 - INFO -   backbone.body.layer3.5.bn3: 4.28 ms
+2024-09-27 22:36:56,518 - INFO -   backbone.body.layer4.0.conv1: 35.16 ms
+2024-09-27 22:36:56,519 - INFO -   backbone.body.layer4.0.bn1: 2.30 ms
+2024-09-27 22:36:56,523 - INFO -   backbone.body.layer4.0.relu: 1.10 ms
+2024-09-27 22:36:56,525 - INFO -   backbone.body.layer4.0.conv2: 46.94 ms
+2024-09-27 22:36:56,530 - INFO -   backbone.body.layer4.0.bn2: 0.80 ms
+2024-09-27 22:36:56,531 - INFO -   backbone.body.layer4.0.conv3: 16.17 ms
+2024-09-27 22:36:56,533 - INFO -   backbone.body.layer4.0.bn3: 2.36 ms
+2024-09-27 22:36:56,535 - INFO -   backbone.body.layer4.0.downsample.0: 46.98 ms
+2024-09-27 22:36:56,538 - INFO -   backbone.body.layer4.0.downsample.1: 11.98 ms
+2024-09-27 22:36:56,540 - INFO -   backbone.body.layer4.1.conv1: 28.76 ms
+2024-09-27 22:36:56,543 - INFO -   backbone.body.layer4.1.bn1: 0.82 ms
+2024-09-27 22:36:56,544 - INFO -   backbone.body.layer4.1.relu: 0.61 ms
+2024-09-27 22:36:56,548 - INFO -   backbone.body.layer4.1.conv2: 46.28 ms
+2024-09-27 22:36:56,549 - INFO -   backbone.body.layer4.1.bn2: 0.70 ms
+2024-09-27 22:36:56,552 - INFO -   backbone.body.layer4.1.conv3: 16.90 ms
+2024-09-27 22:36:56,555 - INFO -   backbone.body.layer4.1.bn3: 2.40 ms
+2024-09-27 22:36:56,558 - INFO -   backbone.body.layer4.2.conv1: 18.11 ms
+2024-09-27 22:36:56,561 - INFO -   backbone.body.layer4.2.bn1: 0.78 ms
+2024-09-27 22:36:56,565 - INFO -   backbone.body.layer4.2.relu: 0.59 ms
+2024-09-27 22:36:56,567 - INFO -   backbone.body.layer4.2.conv2: 46.66 ms
+2024-09-27 22:36:56,568 - INFO -   backbone.body.layer4.2.bn2: 0.64 ms
+2024-09-27 22:36:56,569 - INFO -   backbone.body.layer4.2.conv3: 17.47 ms
+2024-09-27 22:36:56,573 - INFO -   backbone.body.layer4.2.bn3: 2.30 ms
+2024-09-27 22:36:56,576 - INFO -   backbone.fpn.inner_blocks.3.0: 8.98 ms
+2024-09-27 22:36:56,580 - INFO -   backbone.fpn.layer_blocks.3.0: 11.12 ms
+2024-09-27 22:36:56,581 - INFO -   backbone.fpn.inner_blocks.2.0: 26.68 ms
+2024-09-27 22:36:56,587 - INFO -   backbone.fpn.layer_blocks.2.0: 96.69 ms
+2024-09-27 22:36:56,588 - INFO -   backbone.fpn.inner_blocks.1.0: 46.67 ms
+2024-09-27 22:36:56,591 - INFO -   backbone.fpn.layer_blocks.1.0: 299.63 ms
+2024-09-27 22:36:56,594 - INFO -   backbone.fpn.inner_blocks.0.0: 112.99 ms
+2024-09-27 22:36:56,596 - INFO -   backbone.fpn.layer_blocks.0.0: 1071.03 ms
+2024-09-27 22:36:56,599 - INFO -   backbone.fpn.extra_blocks: 1.10 ms
+2024-09-27 22:36:56,600 - INFO -   rpn.head.conv.0.0: 1208.45 ms
+2024-09-27 22:36:56,601 - INFO -   rpn.head.conv.0.1: 6.58 ms
+2024-09-27 22:36:56,602 - INFO -   rpn.head.cls_logits: 10.72 ms
+2024-09-27 22:36:56,604 - INFO -   rpn.head.bbox_pred: 12.37 ms
+2024-09-27 22:36:56,605 - INFO -   rpn.anchor_generator: 9.05 ms
+2024-09-27 22:36:56,607 - INFO -   roi_heads.box_roi_pool: 867.12 ms
+2024-09-27 22:36:56,608 - INFO -   roi_heads.box_head.fc6: 371.03 ms
+2024-09-27 22:36:56,609 - INFO -   roi_heads.box_head.fc7: 28.85 ms
+2024-09-27 22:36:56,611 - INFO -   roi_heads.box_predictor.cls_score: 3.95 ms
+2024-09-27 22:36:56,613 - INFO -   roi_heads.box_predictor.bbox_pred: 10.54 ms
+2024-09-27 22:36:56,614 - INFO - ------------------------------
+2024-09-27 22:37:01,282 - INFO - Device: CPU
+2024-09-27 22:37:01,286 - INFO - Image: gettyimages-1392016982-612x612.jpg
+2024-09-27 22:37:01,288 - INFO - Loading time: 7.80 ms
+2024-09-27 22:37:01,290 - INFO - Preprocessing time: 23.26 ms
+2024-09-27 22:37:01,296 - INFO - Inference time: 4624.11 ms
+2024-09-27 22:37:01,298 - INFO - Postprocessing time: 10.32 ms
+2024-09-27 22:37:01,300 - INFO - Module times:
+2024-09-27 22:37:01,304 - INFO -   transform: 191.52 ms
+2024-09-27 22:37:01,306 - INFO -   backbone.body.conv1: 140.41 ms
+2024-09-27 22:37:01,307 - INFO -   backbone.body.bn1: 81.66 ms
+2024-09-27 22:37:01,308 - INFO -   backbone.body.relu: 4.40 ms
+2024-09-27 22:37:01,312 - INFO -   backbone.body.maxpool: 136.05 ms
+2024-09-27 22:37:01,314 - INFO -   backbone.body.layer1.0.conv1: 4.97 ms
+2024-09-27 22:37:01,315 - INFO -   backbone.body.layer1.0.bn1: 4.32 ms
+2024-09-27 22:37:01,316 - INFO -   backbone.body.layer1.0.relu: 6.15 ms
+2024-09-27 22:37:01,317 - INFO -   backbone.body.layer1.0.conv2: 42.36 ms
+2024-09-27 22:37:01,322 - INFO -   backbone.body.layer1.0.bn2: 4.26 ms
+2024-09-27 22:37:01,323 - INFO -   backbone.body.layer1.0.conv3: 49.50 ms
+2024-09-27 22:37:01,324 - INFO -   backbone.body.layer1.0.bn3: 58.98 ms
+2024-09-27 22:37:01,325 - INFO -   backbone.body.layer1.0.downsample.0: 47.97 ms
+2024-09-27 22:37:01,327 - INFO -   backbone.body.layer1.0.downsample.1: 64.80 ms
+2024-09-27 22:37:01,331 - INFO -   backbone.body.layer1.1.conv1: 16.08 ms
+2024-09-27 22:37:01,332 - INFO -   backbone.body.layer1.1.bn1: 4.44 ms
+2024-09-27 22:37:01,334 - INFO -   backbone.body.layer1.1.relu: 6.22 ms
+2024-09-27 22:37:01,335 - INFO -   backbone.body.layer1.1.conv2: 39.32 ms
+2024-09-27 22:37:01,336 - INFO -   backbone.body.layer1.1.bn2: 4.52 ms
+2024-09-27 22:37:01,337 - INFO -   backbone.body.layer1.1.conv3: 46.38 ms
+2024-09-27 22:37:01,341 - INFO -   backbone.body.layer1.1.bn3: 58.16 ms
+2024-09-27 22:37:01,342 - INFO -   backbone.body.layer1.2.conv1: 16.49 ms
+2024-09-27 22:37:01,343 - INFO -   backbone.body.layer1.2.bn1: 4.33 ms
+2024-09-27 22:37:01,344 - INFO -   backbone.body.layer1.2.relu: 5.71 ms
+2024-09-27 22:37:01,345 - INFO -   backbone.body.layer1.2.conv2: 34.04 ms
+2024-09-27 22:37:01,349 - INFO -   backbone.body.layer1.2.bn2: 4.10 ms
+2024-09-27 22:37:01,351 - INFO -   backbone.body.layer1.2.conv3: 39.92 ms
+2024-09-27 22:37:01,352 - INFO -   backbone.body.layer1.2.bn3: 52.14 ms
+2024-09-27 22:37:01,353 - INFO -   backbone.body.layer2.0.conv1: 28.58 ms
+2024-09-27 22:37:01,354 - INFO -   backbone.body.layer2.0.bn1: 12.29 ms
+2024-09-27 22:37:01,355 - INFO -   backbone.body.layer2.0.relu: 4.04 ms
+2024-09-27 22:37:01,358 - INFO -   backbone.body.layer2.0.conv2: 37.67 ms
+2024-09-27 22:37:01,359 - INFO -   backbone.body.layer2.0.bn2: 1.80 ms
+2024-09-27 22:37:01,360 - INFO -   backbone.body.layer2.0.conv3: 12.39 ms
+2024-09-27 22:37:01,361 - INFO -   backbone.body.layer2.0.bn3: 7.76 ms
+2024-09-27 22:37:01,363 - INFO -   backbone.body.layer2.0.downsample.0: 68.85 ms
+2024-09-27 22:37:01,364 - INFO -   backbone.body.layer2.0.downsample.1: 16.13 ms
+2024-09-27 22:37:01,366 - INFO -   backbone.body.layer2.1.conv1: 15.05 ms
+2024-09-27 22:37:01,367 - INFO -   backbone.body.layer2.1.bn1: 2.05 ms
+2024-09-27 22:37:01,368 - INFO -   backbone.body.layer2.1.relu: 2.45 ms
+2024-09-27 22:37:01,370 - INFO -   backbone.body.layer2.1.conv2: 27.94 ms
+2024-09-27 22:37:01,371 - INFO -   backbone.body.layer2.1.bn2: 1.90 ms
+2024-09-27 22:37:01,372 - INFO -   backbone.body.layer2.1.conv3: 11.72 ms
+2024-09-27 22:37:01,373 - INFO -   backbone.body.layer2.1.bn3: 8.02 ms
+2024-09-27 22:37:01,375 - INFO -   backbone.body.layer2.2.conv1: 14.17 ms
+2024-09-27 22:37:01,376 - INFO -   backbone.body.layer2.2.bn1: 2.11 ms
+2024-09-27 22:37:01,377 - INFO -   backbone.body.layer2.2.relu: 2.49 ms
+2024-09-27 22:37:01,379 - INFO -   backbone.body.layer2.2.conv2: 26.95 ms
+2024-09-27 22:37:01,381 - INFO -   backbone.body.layer2.2.bn2: 1.86 ms
+2024-09-27 22:37:01,382 - INFO -   backbone.body.layer2.2.conv3: 12.23 ms
+2024-09-27 22:37:01,383 - INFO -   backbone.body.layer2.2.bn3: 7.39 ms
+2024-09-27 22:37:01,385 - INFO -   backbone.body.layer2.3.conv1: 13.63 ms
+2024-09-27 22:37:01,387 - INFO -   backbone.body.layer2.3.bn1: 2.10 ms
+2024-09-27 22:37:01,388 - INFO -   backbone.body.layer2.3.relu: 2.65 ms
+2024-09-27 22:37:01,389 - INFO -   backbone.body.layer2.3.conv2: 27.20 ms
+2024-09-27 22:37:01,391 - INFO -   backbone.body.layer2.3.bn2: 1.98 ms
+2024-09-27 22:37:01,392 - INFO -   backbone.body.layer2.3.conv3: 11.85 ms
+2024-09-27 22:37:01,394 - INFO -   backbone.body.layer2.3.bn3: 8.08 ms
+2024-09-27 22:37:01,395 - INFO -   backbone.body.layer3.0.conv1: 24.74 ms
+2024-09-27 22:37:01,396 - INFO -   backbone.body.layer3.0.bn1: 3.78 ms
+2024-09-27 22:37:01,399 - INFO -   backbone.body.layer3.0.relu: 1.80 ms
+2024-09-27 22:37:01,400 - INFO -   backbone.body.layer3.0.conv2: 28.50 ms
+2024-09-27 22:37:01,402 - INFO -   backbone.body.layer3.0.bn2: 1.05 ms
+2024-09-27 22:37:01,403 - INFO -   backbone.body.layer3.0.conv3: 10.67 ms
+2024-09-27 22:37:01,404 - INFO -   backbone.body.layer3.0.bn3: 4.13 ms
+2024-09-27 22:37:01,405 - INFO -   backbone.body.layer3.0.downsample.0: 31.23 ms
+2024-09-27 22:37:01,407 - INFO -   backbone.body.layer3.0.downsample.1: 4.22 ms
+2024-09-27 22:37:01,409 - INFO -   backbone.body.layer3.1.conv1: 11.65 ms
+2024-09-27 22:37:01,410 - INFO -   backbone.body.layer3.1.bn1: 1.16 ms
+2024-09-27 22:37:01,411 - INFO -   backbone.body.layer3.1.relu: 1.20 ms
+2024-09-27 22:37:01,415 - INFO -   backbone.body.layer3.1.conv2: 27.36 ms
+2024-09-27 22:37:01,416 - INFO -   backbone.body.layer3.1.bn2: 1.16 ms
+2024-09-27 22:37:01,417 - INFO -   backbone.body.layer3.1.conv3: 12.07 ms
+2024-09-27 22:37:01,418 - INFO -   backbone.body.layer3.1.bn3: 4.57 ms
+2024-09-27 22:37:01,419 - INFO -   backbone.body.layer3.2.conv1: 12.38 ms
+2024-09-27 22:37:01,420 - INFO -   backbone.body.layer3.2.bn1: 1.23 ms
+2024-09-27 22:37:01,421 - INFO -   backbone.body.layer3.2.relu: 1.19 ms
+2024-09-27 22:37:01,422 - INFO -   backbone.body.layer3.2.conv2: 41.50 ms
+2024-09-27 22:37:01,425 - INFO -   backbone.body.layer3.2.bn2: 1.24 ms
+2024-09-27 22:37:01,426 - INFO -   backbone.body.layer3.2.conv3: 11.23 ms
+2024-09-27 22:37:01,427 - INFO -   backbone.body.layer3.2.bn3: 4.61 ms
+2024-09-27 22:37:01,428 - INFO -   backbone.body.layer3.3.conv1: 11.49 ms
+2024-09-27 22:37:01,430 - INFO -   backbone.body.layer3.3.bn1: 1.32 ms
+2024-09-27 22:37:01,432 - INFO -   backbone.body.layer3.3.relu: 1.07 ms
+2024-09-27 22:37:01,434 - INFO -   backbone.body.layer3.3.conv2: 25.97 ms
+2024-09-27 22:37:01,435 - INFO -   backbone.body.layer3.3.bn2: 1.16 ms
+2024-09-27 22:37:01,437 - INFO -   backbone.body.layer3.3.conv3: 11.27 ms
+2024-09-27 22:37:01,442 - INFO -   backbone.body.layer3.3.bn3: 4.73 ms
+2024-09-27 22:37:01,443 - INFO -   backbone.body.layer3.4.conv1: 11.16 ms
+2024-09-27 22:37:01,444 - INFO -   backbone.body.layer3.4.bn1: 1.22 ms
+2024-09-27 22:37:01,445 - INFO -   backbone.body.layer3.4.relu: 0.98 ms
+2024-09-27 22:37:01,447 - INFO -   backbone.body.layer3.4.conv2: 27.01 ms
+2024-09-27 22:37:01,450 - INFO -   backbone.body.layer3.4.bn2: 1.23 ms
+2024-09-27 22:37:01,451 - INFO -   backbone.body.layer3.4.conv3: 11.48 ms
+2024-09-27 22:37:01,453 - INFO -   backbone.body.layer3.4.bn3: 4.70 ms
+2024-09-27 22:37:01,454 - INFO -   backbone.body.layer3.5.conv1: 11.75 ms
+2024-09-27 22:37:01,455 - INFO -   backbone.body.layer3.5.bn1: 1.21 ms
+2024-09-27 22:37:01,456 - INFO -   backbone.body.layer3.5.relu: 1.29 ms
+2024-09-27 22:37:01,458 - INFO -   backbone.body.layer3.5.conv2: 28.64 ms
+2024-09-27 22:37:01,460 - INFO -   backbone.body.layer3.5.bn2: 1.18 ms
+2024-09-27 22:37:01,462 - INFO -   backbone.body.layer3.5.conv3: 11.56 ms
+2024-09-27 22:37:01,464 - INFO -   backbone.body.layer3.5.bn3: 4.57 ms
+2024-09-27 22:37:01,467 - INFO -   backbone.body.layer4.0.conv1: 23.97 ms
+2024-09-27 22:37:01,468 - INFO -   backbone.body.layer4.0.bn1: 2.21 ms
+2024-09-27 22:37:01,469 - INFO -   backbone.body.layer4.0.relu: 0.78 ms
+2024-09-27 22:37:01,471 - INFO -   backbone.body.layer4.0.conv2: 34.89 ms
+2024-09-27 22:37:01,473 - INFO -   backbone.body.layer4.0.bn2: 0.74 ms
+2024-09-27 22:37:01,475 - INFO -   backbone.body.layer4.0.conv3: 11.49 ms
+2024-09-27 22:37:01,477 - INFO -   backbone.body.layer4.0.bn3: 2.22 ms
+2024-09-27 22:37:01,479 - INFO -   backbone.body.layer4.0.downsample.0: 31.58 ms
+2024-09-27 22:37:01,481 - INFO -   backbone.body.layer4.0.downsample.1: 1.79 ms
+2024-09-27 22:37:01,483 - INFO -   backbone.body.layer4.1.conv1: 11.93 ms
+2024-09-27 22:37:01,484 - INFO -   backbone.body.layer4.1.bn1: 0.64 ms
+2024-09-27 22:37:01,486 - INFO -   backbone.body.layer4.1.relu: 0.49 ms
+2024-09-27 22:37:01,487 - INFO -   backbone.body.layer4.1.conv2: 27.31 ms
+2024-09-27 22:37:01,489 - INFO -   backbone.body.layer4.1.bn2: 0.60 ms
+2024-09-27 22:37:01,491 - INFO -   backbone.body.layer4.1.conv3: 11.35 ms
+2024-09-27 22:37:01,492 - INFO -   backbone.body.layer4.1.bn3: 2.12 ms
+2024-09-27 22:37:01,494 - INFO -   backbone.body.layer4.2.conv1: 11.70 ms
+2024-09-27 22:37:01,496 - INFO -   backbone.body.layer4.2.bn1: 0.55 ms
+2024-09-27 22:37:01,498 - INFO -   backbone.body.layer4.2.relu: 0.50 ms
+2024-09-27 22:37:01,499 - INFO -   backbone.body.layer4.2.conv2: 27.83 ms
+2024-09-27 22:37:01,503 - INFO -   backbone.body.layer4.2.bn2: 0.59 ms
+2024-09-27 22:37:01,505 - INFO -   backbone.body.layer4.2.conv3: 11.86 ms
+2024-09-27 22:37:01,506 - INFO -   backbone.body.layer4.2.bn3: 2.33 ms
+2024-09-27 22:37:01,507 - INFO -   backbone.fpn.inner_blocks.3.0: 6.89 ms
+2024-09-27 22:37:01,511 - INFO -   backbone.fpn.layer_blocks.3.0: 9.03 ms
+2024-09-27 22:37:01,512 - INFO -   backbone.fpn.inner_blocks.2.0: 12.68 ms
+2024-09-27 22:37:01,513 - INFO -   backbone.fpn.layer_blocks.2.0: 26.66 ms
+2024-09-27 22:37:01,515 - INFO -   backbone.fpn.inner_blocks.1.0: 28.32 ms
+2024-09-27 22:37:01,516 - INFO -   backbone.fpn.layer_blocks.1.0: 117.07 ms
+2024-09-27 22:37:01,518 - INFO -   backbone.fpn.inner_blocks.0.0: 74.42 ms
+2024-09-27 22:37:01,521 - INFO -   backbone.fpn.layer_blocks.0.0: 450.25 ms
+2024-09-27 22:37:01,522 - INFO -   backbone.fpn.extra_blocks: 0.56 ms
+2024-09-27 22:37:01,525 - INFO -   rpn.head.conv.0.0: 611.47 ms
+2024-09-27 22:37:01,526 - INFO -   rpn.head.conv.0.1: 5.81 ms
+2024-09-27 22:37:01,527 - INFO -   rpn.head.cls_logits: 8.60 ms
+2024-09-27 22:37:01,528 - INFO -   rpn.head.bbox_pred: 11.02 ms
+2024-09-27 22:37:01,531 - INFO -   rpn.anchor_generator: 5.50 ms
+2024-09-27 22:37:01,532 - INFO -   roi_heads.box_roi_pool: 450.13 ms
+2024-09-27 22:37:01,533 - INFO -   roi_heads.box_head.fc6: 336.80 ms
+2024-09-27 22:37:01,534 - INFO -   roi_heads.box_head.fc7: 28.89 ms
+2024-09-27 22:37:01,536 - INFO -   roi_heads.box_predictor.cls_score: 3.41 ms
+2024-09-27 22:37:01,537 - INFO -   roi_heads.box_predictor.bbox_pred: 11.20 ms
+2024-09-27 22:37:01,538 - INFO - ------------------------------
